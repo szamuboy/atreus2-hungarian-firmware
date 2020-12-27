@@ -157,7 +157,7 @@ KEYMAPS(
       ,___             ,___             ,___                 ,___                   ,___          , ___
 
                 ,LSHIFT(Key_Z)     ,LSHIFT(Key_U) ,LSHIFT(Key_I)                   ,LSHIFT(Key_O) ,LSHIFT(Key_P)
-                ,LSHIFT(Key_H)     ,LSHIFT(Key_J) ,LSHIFT(Key_K)                   ,LSHIFT(Key_L) ,LSHIFT(Key_Semicolon_Hun)
+                ,LSHIFT(Key_H)     ,LSHIFT(Key_J) ,LSHIFT(Key_K)                   ,LSHIFT(Key_L) ,LSHIFT(Key_Period)
        ,LEAD(3) ,LSHIFT(Key_N)     ,LSHIFT(Key_M) ,RALT(Key_NonUsBackslashAndPipe) ,RALT(Key_Z)   ,LSHIFT(Key_Comma)
        ,___     ,___               ,___           ,LSHIFT(Key_Minus_Hun)           ,LSHIFT(Key_2) ,___
   ),

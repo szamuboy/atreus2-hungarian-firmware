@@ -1,0 +1,82 @@
+#+options: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline author:t
+#+options: broken-links:nil c:nil creator:nil d:(not "LOGBOOK") date:t e:t
+#+options: email:nil f:t inline:t num:t p:nil pri:nil prop:nil stat:t tags:t
+#+options: tasks:t tex:t timestamp:t title:t toc:t todo:t |:t
+#+title: README
+#+date: <2020-12-27 Sun>
+#+author:
+#+email: gergely79@gmail.com
+#+language: en
+#+select_tags: export
+#+exclude_tags: noexport
+#+creator: Emacs 27.1 (Org mode 9.4)
+
+* What's this?
+
+  This is a dual-language (English-Hungarian) [[https://kaleidoscope.readthedocs.io/en/latest/index.html][Kaleidoscope]] firmware for the
+  [[https://shop.keyboard.io/collections/keyboardio-atreus][Keyboardio Atreus]] keyboard.
+
+* Why?
+
+  I created this firmware to fit my special needs. I really like the Atreus
+  default layout when typing English text or computer programs. Sometimes I need
+  to write some text in Hungarian, though. The default Atreus layout for typing
+  in Hungarian is, hmm, not the best.
+
+* How does it work?
+
+  The default Atreus layout and the three layers are kept. A new set of layers
+  are introduced for Hungarian language.
+
+  If your operating system settings are set to Hungarian (qwertz) layout, you
+  can switch to the Hungarian Atreus layer by pressing ~Fun~ and ~;~. This
+  combination is not set in the default Atreus firmware. From this point on, you
+  get the familiar English typing experience. ~Z~ and ~Y~ are where they should be
+  and all the special characters are at the usual (Atreus) location.
+
+  The other benefit of the Hungarian Atreus layer with the Hungarian OS layout
+  is that you can type the Hungarian special accent characters. The Hungarian
+  characters can get by typing a sequence of characters. The following table
+  summarizes the supported character sequences.
+
+  | sequence    | character |
+  |-------------+-----------|
+  | ~`~ ~a~     | ~á~       |
+  | ~`~ ~e~     | ~é~       |
+  | ~`~ ~i~     | ~í~       |
+  | ~`~ ~o~     | ~ó~       |
+  | ~`~ ~u~     | ~ú~       |
+  | ~\~ ~o~     | ~ö~       |
+  | ~\~ ~u~     | ~ü~       |
+  | ~`~ ~`~ ~o~ | ~ő~       |
+  | ~`~ ~`~ ~u~ | ~ű~       |
+  | ~~~ ~A~     | ~Á~       |
+  | ~~~ ~E~     | ~É~       |
+  | ~~~ ~I~     | ~Í~       |
+  | ~~~ ~O~     | ~Ó~       |
+  | ~~~ ~U~     | ~Ú~       |
+  | ~¦~ ~O~     | ~Ö~       |
+  | ~¦~ ~U~     | ~Ü~       |
+  | ~~~ ~~~ ~O~ | ~Ő~       |
+  | ~~~ ~~~ ~U~ | ~Ű~       |
+  | ~`~ ~`~ ~`~ | ~`~       |
+  | ~~~ ~~~ ~~~ | ~~~       |
+  | ~\~ ~\~     | ~\~       |
+  | ~¦~ ~¦~     | ~¦~       |
+  
+  Note, that the sequences shall be typed quickly.
+  
+  You can switch back to the default Atreus English layer by pressing ~Fun~ and
+  ~;~ again.
+
+* Switching between layouts
+
+  My OS is configured to switch between English and Hungarian layout by pressing
+  the ~LSHIFT~ and ~RSHIFT~. With this firmware, I can achieve this by pressing
+  the ~`~ and ~\~ at the same time. This works both in English and in Hungarian
+  layout.
+
+* Installing the firmware
+
+  See the description [[https://kaleidoscope.readthedocs.io/en/latest/quick_start.html][here]].
+

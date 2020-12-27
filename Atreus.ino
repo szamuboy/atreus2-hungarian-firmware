@@ -151,15 +151,15 @@ KEYMAPS(
 
   [QWERTY_SHIFT_HUN] = KEYMAP_STACKED
   (
-       LSHIFT(Key_Q)   ,LSHIFT(Key_W)   ,LSHIFT(Key_E)       ,LSHIFT(Key_R)         ,LSHIFT(Key_T)
-      ,LSHIFT(Key_A)   ,LSHIFT(Key_S)   ,LSHIFT(Key_D)       ,LSHIFT(Key_F)         ,LSHIFT(Key_G)
-      ,LSHIFT(Key_Y)   ,LSHIFT(Key_X)   ,LSHIFT(Key_C)       ,LSHIFT(Key_V)         ,LSHIFT(Key_B), LEAD(1)
-      ,___             ,___             ,___                 ,___                   ,___          , ___
+    LSHIFT(Key_Q)    ,LSHIFT(Key_W)   ,LSHIFT(Key_E)       ,LSHIFT(Key_R) ,LSHIFT(Key_T)
+   ,LSHIFT(Key_A)   ,LSHIFT(Key_S)   ,LSHIFT(Key_D)       ,LSHIFT(Key_F) ,LSHIFT(Key_G)
+   ,LSHIFT(Key_Y)   ,LSHIFT(Key_X)   ,LSHIFT(Key_C)       ,LSHIFT(Key_V) ,LSHIFT(Key_B)         ,LEAD(1)
+   ,LSHIFT(Key_Esc) ,LSHIFT(Key_Tab) ,LSHIFT(Key_LeftGui) ,___           ,LSHIFT(Key_Backspace) ,LSHIFT(Key_LeftControl)
 
-                ,LSHIFT(Key_Z)     ,LSHIFT(Key_U) ,LSHIFT(Key_I)                   ,LSHIFT(Key_O) ,LSHIFT(Key_P)
-                ,LSHIFT(Key_H)     ,LSHIFT(Key_J) ,LSHIFT(Key_K)                   ,LSHIFT(Key_L) ,LSHIFT(Key_Period)
-       ,LEAD(3) ,LSHIFT(Key_N)     ,LSHIFT(Key_M) ,RALT(Key_NonUsBackslashAndPipe) ,RALT(Key_Z)   ,LSHIFT(Key_Comma)
-       ,___     ,___               ,___           ,LSHIFT(Key_Minus_Hun)           ,LSHIFT(Key_2) ,___
+                         ,LSHIFT(Key_Z)     ,LSHIFT(Key_U) ,LSHIFT(Key_I)                   ,LSHIFT(Key_O) ,LSHIFT(Key_P)
+                         ,LSHIFT(Key_H)     ,LSHIFT(Key_J) ,LSHIFT(Key_K)                   ,LSHIFT(Key_L) ,LSHIFT(Key_Period)
+    ,LEAD(3)             ,LSHIFT(Key_N)     ,LSHIFT(Key_M) ,RALT(Key_NonUsBackslashAndPipe) ,RALT(Key_Z)   ,LSHIFT(Key_Comma)
+    ,LSHIFT(Key_LeftAlt) ,LSHIFT(Key_Space) ,___           ,LSHIFT(Key_Minus_Hun)           ,LSHIFT(Key_2) ,LSHIFT(Key_Enter)
   ),
 
   [FUN_HUN] = KEYMAP_STACKED
